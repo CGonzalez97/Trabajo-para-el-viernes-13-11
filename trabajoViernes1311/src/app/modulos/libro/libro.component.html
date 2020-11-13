@@ -1,0 +1,11 @@
+<p>libro works!</p>
+<div>
+    <div *ngFor="let libro of libros">
+        <h1>{{libro.titulo}}</h1>
+        <h3>{{libro.autor}}</h3>
+        <p>{{libro.editorial}}</p>
+        <p>{{libro.descripcion}}</p>
+        <!--<img ng-src="{{libro.img}}">-->
+        <img [src]="libro.img">
+    </div>
+</div>
