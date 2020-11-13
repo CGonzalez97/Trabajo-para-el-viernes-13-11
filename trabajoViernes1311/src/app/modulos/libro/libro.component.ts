@@ -10,7 +10,7 @@ export class LibroComponent implements OnInit {
 
    libros:{id:string, titulo:string, autor:string, editorial:string, descripcion:string, img:string}[] = libros;
 
-  constructor(/*libros*/) {
+  constructor() {
     this.libros = libros;
    }
 
